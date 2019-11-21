@@ -1,0 +1,273 @@
+        body{
+            margin: 0;
+            background-color: lightgray;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: white;
+            height: 100%;
+            padding-top: 1%;
+        }
+
+        .logo{
+           margin-left: 12%; 
+        }
+
+        .menu{
+            margin-left:20% ;
+            width: 50%;
+        }
+
+        li{
+            margin-right: 3%;
+        }
+
+        ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction:row;
+        }
+
+       li a{
+        color: black;
+        text-decoration: none;
+        font: bold 1vw/1.15 monospace;
+        }
+
+        li a:hover{
+            color:darkkhaki;
+        }
+
+        .crop-page{
+            display: flex;
+            flex-direction: column;
+            margin: 0 5%;
+        }
+
+        .div-a:first-child{
+            background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Best-Download-World-Map-Wallpapers-HD-1.jpg") ;
+            background-size: cover;
+            color:white;
+            text-align: center;
+            padding-bottom:2%;
+        }
+
+        .div-a-p{
+            font-size: 1.5vw;
+        }
+
+
+        .button-icon-arrow{
+            border-radius: 100%;
+            padding:1%;
+            margin: 1%;
+            color:white;
+            background-color: darkkhaki;
+        }
+
+        .form-a {
+            margin-left: 12%;
+            margin-right: 12%;
+            background-color: whitesmoke;
+            height: 20%;
+            padding: 1%;
+        }
+
+        .form-a > table{
+            text-align: center;
+            color:black;
+            width:100%;
+            margin: 3.5%;
+        }
+
+        td > *{ /* review */ 
+            padding: 2%;
+        }
+
+        .input-destination{
+            padding-right: 50%;
+        }
+
+        .button-choose-table {
+            padding: 2% 0 0 0.5%;
+        }
+
+        .button-CheckAvailability{ /* review */ 
+            padding:1.5% 40%;
+            background-color: darkkhaki;
+            color: white;
+        }
+
+        .div-b{
+            text-align: center;
+            background-color: honeydew;
+            color: black;
+            padding: 5%;
+        }
+
+        .div-b-p{
+            font-size: 38px;
+        }
+
+        .h1-journey{
+            font-weight: bolder;
+        }
+
+        .button-continue-explore{
+            background-color: darkkhaki;
+            color:white;
+            padding:1%;
+        }
+
+        .button-continue-explore:hover{
+            background-color: purple;
+            opacity: 0.5
+        }
+
+       .div-c{
+          display: flex;
+          flex-direction: column;
+          background-color: white;
+        }
+
+        .div-c-a {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .div-c-a > div {
+            width: 50%;
+        }
+
+        .border-p{
+            padding-top: 8%;
+            padding-bottom:8% ;
+            position: relative;
+        }
+        
+        .div-c-img{
+            background-image: url("https://freedesignfile.com/upload/2017/03/Beautiful-nature-gold-Stock-Photo.jpg");
+            background-size: cover;
+        }
+    
+        .p-border {
+            border: none;
+            background-color:purple;
+            width:100%;
+            padding: 4%;
+            color: white;
+            position: relative;
+        }
+
+        .p-border.r {
+            background-color:darkkhaki;
+            right: 8%;
+        }
+
+        .p-border-header {
+            font-size: 28px;
+        }
+
+        .button-continue-read{
+            background-color:white;
+            color:darkkhaki ;
+            padding: 2%;
+            margin-left: 2%;
+        }
+
+        .div-d {
+            display: flex;
+            flex-direction: row;
+            height: 100px;
+        }
+
+        .btn {
+            width: 14.8%;
+            background: url("https://colorlib.com/etc/creative-agency/img/logo.png") no-repeat white;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn:not(.active):hover{
+            opacity: 0.5;
+            background-color:aqua;
+        }
+
+        .active {
+            background-color: purple;
+          }
+
+        .div-e {
+            padding: 8%;
+            background-color: white;
+        }
+
+        .div-e-a {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .div-e-a-1{
+            display: flex;
+            flex-direction: row;
+            margin-top: 5%;
+            border: 1px solid;
+            box-shadow: 5px 10px 8px #888888;
+            border-color: darkkhaki;
+            height: 100%;
+        }
+
+        .div-e-a-1 > button {
+            background-color:darkkhaki ;
+            color: white;
+            height: 150px;
+            width: 25%;
+            position: relative;
+            border:none;
+        }
+
+        .div-e-a-1 > button:hover{
+            background-color:purple;
+            font-weight: bolder;
+            opacity: 0.5
+        }
+
+        div-e-a > p {
+            z-index: -1;
+            position: relative;
+            border-bottom-right-radius: 50%;
+            border-top-right-radius: 50%;
+            background-color: cadetblue;
+        }
+
+        .button-show-more{
+            margin:auto;
+            margin-top: 2%;
+            color: white;
+            background-color: darkkhaki;
+            padding: 1.5%;
+        }
+
+        .p-bold {
+            font-weight: bold;
+        }
+
+        .p-color {
+            color:purple;
+        }
+
+        .div-g {
+          background-color:darkkhaki;
+        }
+
+        .div-g > p {
+          text-align: center;
+          color:white;
+        }
